@@ -22,6 +22,7 @@ var ref = new Firebase('https://rnchat.firebaseio.com/messages');
 var Form = require('./components/Form');
 var Messages = require('./components/Messages');
 
+// fake data - not used ATM
 var data = [
   {
     date: 1445063492153,
@@ -55,7 +56,7 @@ var Chat = React.createClass({
     return {
       data: [],
       isLoading: true,
-      username: 'David Krmpotic'
+      username: 'Me'
     }
   },
 
